@@ -1,5 +1,3 @@
--- Инжектор скрипт для Roblox - Переводчик раскладки чата
-
 local Players = game:GetService("Players")
 local TextChatService = game:GetService("TextChatService")
 local CoreGui = game:GetService("CoreGui")
