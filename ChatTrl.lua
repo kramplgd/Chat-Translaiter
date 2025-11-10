@@ -374,7 +374,8 @@ local function addMessage(player, originalText, translatedText)
     
     applyFilter()
     
-    messagesContainer.CanvasPosition = Vector2.new(0, messagesContainer.AbsoluteCanvasSize.Y)
+    -- УБРАЛ АВТОСКРОЛЛ ПОЛНОСТЬЮ
+    -- Сообщения просто добавляются, но скролл не меняется
 end
 
 local function toggleVisibility()
